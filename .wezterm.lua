@@ -21,7 +21,7 @@ local config = {
 	-- window_decorations = "RESIZE",
 
 	show_new_tab_button_in_tab_bar = false,
-	window_background_opacity = 0.9,
+	window_background_opacity = 0.85,
 	macos_window_background_blur = 70,
 	-- windows_window_background_blur = 70,
 	text_background_opacity = 0.9,
