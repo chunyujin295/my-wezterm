@@ -8,7 +8,7 @@ local config = {
 	-- This is where you actually apply your config choices
 
 	-- -- 字体
-	font = wezterm.font("JetBrainsMono NF Light", { weight = "Regular" }),
+	font = wezterm.font("JetBrainsMono NF", { weight = "Regular" }),
 
 	-- For example, changing the color scheme:
 	color_scheme = "Catppuccin Mocha",
@@ -33,7 +33,10 @@ local config = {
 		bottom = 5,
 	},
 	-- Spawn a powershell
-	default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe -NoLogo" },
+	-- default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe -NoLogo" },
+	-- default_prog = {"D:/software/Git/git-bash.exe"}
+	default_prog = {"C:/Users/Thinkpad/AppData/Local/Programs/nu/bin/nu.exe"}
+	-- 或者直接 default_prog = {"nu"}
 }
 -- and finally, return the configuration to wezterm
 return config
