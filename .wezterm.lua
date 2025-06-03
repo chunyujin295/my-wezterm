@@ -8,7 +8,7 @@ local config = {
 	-- This is where you actually apply your config choices
 
 	-- -- 字体
-	font = wezterm.font("JetBrainsMono NF", { weight = "Regular" }),
+	font = wezterm.font("Maple Mono NF CN", { weight = "Medium" }),
 
 	-- For example, changing the color scheme:
 	color_scheme = "Catppuccin Mocha",
