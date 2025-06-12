@@ -10,8 +10,15 @@ local config = {
 	-- -- 字体
 	font = wezterm.font("Maple Mono NF CN", { weight = "Medium" }),
 
-	-- For example, changing the color scheme:
-	color_scheme = "Catppuccin Mocha",
+	-- 配色方案
+	-- Wezterm支持真彩色，注释掉配色方案则使用默认方案
+	-- https://wezterm.org/colorschemes/index.html
+	-- color_scheme = "Catppuccin Mocha",
+	-- color_scheme = 'Adventure Time (Gogh)',
+	-- color_scheme = 'VisiBlue (terminal.sexy)',
+	-- color_scheme = 'Sakura',
+	-- color_scheme = 'shades-of-purple',
+	color_scheme = 'Shades of Purple (base16)',
 
 	use_fancy_tab_bar = false,
 
