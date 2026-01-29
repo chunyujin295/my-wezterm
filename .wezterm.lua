@@ -42,8 +42,8 @@ local config = {
 	-- Spawn a powershell
 	-- default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe -NoLogo" },
 	-- default_prog = {"D:/software/Git/git-bash.exe"}
-	default_prog = {"C:/Users/Thinkpad/AppData/Local/Programs/nu/bin/nu.exe"}
-	-- 或者直接 default_prog = {"nu"}
+	-- default_prog = {"C:/Users/Thinkpad/AppData/Local/Programs/nu/bin/nu.exe"}
+	default_prog = {"nu"}
 }
 -- and finally, return the configuration to wezterm
 return config
