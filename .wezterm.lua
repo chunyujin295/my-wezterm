@@ -149,6 +149,8 @@ config.keys = {
 		action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
 	},
 
+	-- alt + enter wezterm默认全屏/退出全屏的配置
+
 }
 
 return config
