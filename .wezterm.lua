@@ -19,7 +19,7 @@ config.font_size = 13.5
 config.color_scheme = "Shades of Purple (base16)"
 
 -- 完全无边框
--- config.window_decorations = "NONE"
+config.window_decorations = "NONE"
 
 -- 透明 + 模糊
 config.window_background_opacity = 0.88
@@ -70,7 +70,6 @@ config.audible_bell = "Disabled"
 -- 关闭关闭确认
 config.window_close_confirmation = "NeverPrompt"
 
-config.window_decorations = "RESIZE"
 
 local act = wezterm.action
 
