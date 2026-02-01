@@ -19,17 +19,20 @@ config.font_size = 13.5
 config.color_scheme = "Shades of Purple (base16)"
 
 -- 完全无边框
-config.window_decorations = "NONE"
+-- config.window_decorations = "NONE"
+config.window_decorations = "RESIZE"
 
 -- 透明 + 模糊
 config.window_background_opacity = 0.88
 config.text_background_opacity = 0.95
-config.macos_window_background_blur = 80
+-- config.macos_window_background_blur = 80
 
 -- Tab Bar 极简
 config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 config.show_new_tab_button_in_tab_bar = false
+
+-- config.win32_system_backdrop = "Mica"
 
 -- 内边距（视觉呼吸感）
 config.window_padding = {
@@ -148,8 +151,6 @@ config.keys = {
 		mods = "CTRL|ALT",
 		action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
 	},
-
-	-- alt + enter wezterm默认全屏/退出全屏的配置
 
 }
 
