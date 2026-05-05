@@ -3,23 +3,24 @@ local wezterm = require("wezterm")
 local config = {}
 
 -- 字体
-config.font = wezterm.font("Maple Mono NF CN", {
-	weight = "Medium",
-})
-config.font_size = 13.5
+-- config.font = wezterm.font("Maple Mono NF CN", {
+-- 	weight = "Medium",
+-- })
+config.font_size = 11.5
 
 -- 配色方案
 -- Wezterm支持真彩色，注释掉配色方案则使用默认方案
 -- https://wezterm.org/colorschemes/index.html
--- color_scheme = "Catppuccin Mocha",
--- color_scheme = 'Adventure Time (Gogh)',
--- color_scheme = 'VisiBlue (terminal.sexy)',
--- color_scheme = 'Sakura',
--- color_scheme = 'shades-of-purple',
-config.color_scheme = "Shades of Purple (base16)"
+--  config.color_scheme = "Catppuccin Mocha"
+--  config.color_scheme = 'Adventure Time (Gogh)'
+--  config.color_scheme = 'VisiBlue (terminal.sexy)'
+--  config.color_scheme = 'Sakura'
+--  config.color_scheme = 'shades-of-purple'
+-- config.color_scheme = "Shades of Purple (base16)"
 
 -- 完全无边框
-config.window_decorations = "NONE"
+-- config.window_decorations = "NONE"
+config.window_decorations = "RESIZE"
 
 -- 透明 + 模糊
 config.window_background_opacity = 0.88
