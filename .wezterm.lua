@@ -32,7 +32,7 @@ config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 config.show_new_tab_button_in_tab_bar = false
 
--- config.win32_system_backdrop = "Mica"
+-- config.win32_system_backdrop = 'Acrylic'
 
 -- 内边距（视觉呼吸感）
 config.window_padding = {
