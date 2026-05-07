@@ -55,7 +55,7 @@ config.cursor_blink_ease_out = 'Constant'
 -- 滚动缓冲
 config.scrollback_lines = 8000
 
--- 性能
+-- 后端，如果WebGpu无法产生半透明效果，那就换OpenGL，记得重启WezTerm
 config.front_end = "WebGpu"
 -- config.front_end = "Software"
 --config.front_end = "Vulkan"
