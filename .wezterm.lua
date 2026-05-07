@@ -57,6 +57,9 @@ config.scrollback_lines = 8000
 
 -- 性能
 config.front_end = "WebGpu"
+-- config.front_end = "Software"
+--config.front_end = "Vulkan"
+-- config.front_end = "OpenGL"
 config.enable_wayland = false
 
 -- 默认 shell（Nu）
